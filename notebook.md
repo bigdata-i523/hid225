@@ -4,7 +4,7 @@
 
 # Theory
 
-* 08/22/17 - 08/23/17 Read and watched all videso in the Theory Introduction section
+* Currently reading and watching all videos in the Theory Introduction section - updated 09/15/17
 
 # Practice
 
@@ -12,5 +12,5 @@
 
 # Writing
 
-* 08/26/17 Installed and Learned aquamacs
-* 00/01/17 Installed and Learned jabref
+* 09/15/17 Installed and Learned aquamacs
+* 09/08/17 Installed and Learned jabref
