@@ -12,5 +12,7 @@
 
 # Writing
 
-* 09/15/17 Installed and Learned aquamacs
+* 09/05/17 Started Researching for Paper 1: Big Data Applications for the Transportation Industry
 * 09/08/17 Installed and Learned jabref
+* 09/15/17 Installed and Learned aquamacs
+
