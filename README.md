@@ -7,9 +7,9 @@
 
 ```
 owner:
-    hid: 000
-    name: Gregor von Laszewski
-    url: https://github.com/bigdata-i523/sample-hid000
+    hid: 225
+    name: Schwartzer, Matthew
+    url: https://github.com/bigdata-i523/hid225
 ```
 
 # Paper 1
@@ -17,16 +17,13 @@ owner:
 ```
 paper1:
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
+   - Schwartzer, Matthew
    hid:
-   - 000
-   - 001
-   title: This is my paper about xyz
-   abstract: This paper showcases this and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   - 225
+   title: Big Data Applications in the Transportation Industry
+   abstract: ...
+   url: https://github.com/bigdata-i523/hid225/paper1/paper1.pdf
    type: latex
-   
    status: in progress
  ```
    
@@ -35,13 +32,13 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Schwartzer, Matthew
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases tis and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
-   type: word
+   - 225
+   title: 
+   abstract: 
+   url: https://github.com/bigdata-i523/hid225/paper2/paper2.pdf   
+   type: ...
    status: in progress
 ```
 
