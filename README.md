@@ -38,8 +38,8 @@ paper2:
    title: 
    abstract: 
    url: https://github.com/bigdata-i523/hid225/paper2/paper2.pdf   
-   type: ...
-   status: in progress
+   type: latex
+   status: not started
 ```
 
 # Project 
@@ -52,12 +52,12 @@ paper2:
    type: project
    type: report
    author: 
-   - Gregor von Laszewski
+   - Schwartzer, Matthew
    hid:
-   - 000
-   title: Benchmarking a BigData Docker deployment
-   abstract: This paper showcases tis and that and the other 
-   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+   - 225
+   title: ...
+   abstract: ...
+   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf #needs updating
    type: latex
-   status: in progress
+   status: not started
 ```
