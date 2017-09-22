@@ -1,10 +1,10 @@
 FILE=report
 
 all:
-	pdflatex ${FILE}
+	pdflatex ${Flags} ${FILE}
 	bibtex ${FILE}
-	pdflatex ${FILE}
-	pdflatex ${FILE}
+	pdflatex ${Flags} ${FILE}
+	pdflatex ${Flags} ${FILE}
 
 pack:
 	rm -rf ${FILE}
