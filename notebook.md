@@ -16,3 +16,9 @@
 * 09/08/17 Installed and Learned jabref
 * 09/15/17 Installed and Learned aquamacs
 
+# Location
+
+* Address: Bloomington in, 2805 E 10th st
+* Latitude: 39.171648
+* Longitude: -86.501161 
+
