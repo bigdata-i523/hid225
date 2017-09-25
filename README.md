@@ -20,7 +20,7 @@ paper1:
    - Schwartzer, Matthew
    hid:
    - 225
-   title: Big Data Applications in the Transportation Industry
+   title: Optimizing Mass Transit Bus Routes with Big Data
    abstract: ...
    url: https://github.com/bigdata-i523/hid225/paper1/paper1.pdf
    type: latex
@@ -35,7 +35,7 @@ paper2:
    - Schwartzer, Matthew
    hid:
    - 225
-   title: 
+   title: ...
    abstract: 
    url: https://github.com/bigdata-i523/hid225/paper2/paper2.pdf   
    type: latex
