@@ -21,10 +21,10 @@ paper1:
    hid:
    - 225
    title: Optimizing Mass Transit Bus Routes with Big Data
-   abstract: ...
+   abstract: Big data analytics is important in the public bus transportation domain because optimized public bus systems can reduce congestion and greenhouse gas emissions, while offering a safe, affordable, and convenient way to travel; however, in many cities people prefer to take private transportation over public buses. Big data can help bridge this gap by optimizing the three pillars of public bus transportation: routes, schedules and infrastructure. 
    url: https://github.com/bigdata-i523/hid225/paper1/paper1.pdf
    type: latex
-   status: in progress
+   status: 50%
    chapter: Transportation
 ```
    
