@@ -4,14 +4,13 @@ owner:
     name: Schwartzer, Matthew
     url: https://github.com/bigdata-i523/hid225
 paper1:
-    abstract: 'Big data analytics is important in the public bus transportation domain
+    abstract: >
+        Big data analytics is important in the public bus transportation domain
         because optimized public bus systems can reduce congestion and greenhouse
         gas emissions, while offering a safe, affordable, and convenient way to travel;
         however, in many cities people prefer to take private transportation over
         public buses. Big data can help bridge this gap by optimizing the three pillars
         of public bus transportation: routes, schedules and infrastructure.
-
-        '
     author:
         - Schwartzer, Matthew
     chapter: Transportation
