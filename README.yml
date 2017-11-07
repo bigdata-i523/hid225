@@ -21,13 +21,18 @@ paper1:
     type: latex
     url: https://github.com/bigdata-i523/hid225/paper1/paper1.pdf
 paper2:
-    review: Nov 6 2017
-    abstract: '...'
+paper2:
+    review: 100% Nov 6 2017
+    abstract: >
+        Like the internet in the 1980s and early 1990s, blockchain is a grossly misunderstood technology
+        that has the capability of transforming a wide variety of industries. These industries extend 
+        beyond just financial transactions and cryptocurrencies and includes healthcare and supply chain.
+        This paper reviews the history and current status of blockchain and investigates use cases for 
+        how blockchain can transform healthcare and supply chain. 
     author:
-        - Schwartzer, Matthew
+        - Kumar, Saurabh; Schwartzer, Matthew; Hotz, Nicholas 
     hid:
-        - 225
-    status: not started
-    title: '...'
+        - 212, 225, 210
+    title: Can Blockchain mitigate the Opioid Crisis through more secure Drug Distribution?
     type: latex
-    url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+    url: TBD
