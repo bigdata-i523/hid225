@@ -3,57 +3,78 @@
 \input{format/i523}
 
 \begin{document}
-\title{Optimizing Mass Transit Bus Routes with Big Data}
+\title{Creating Better Urban Environments with Optimized Public Bus Routes and Schedules}
 
-
-\author{Matthew Schwartzer}
+\author{Mathew Schwartzer}
 \affiliation{%
-  \institution{Indiana University, School of Informatics, Computing, \& Engineering}
-  \streetaddress{919 E 10th St}
+  \institution{Indiana University}
   \city{Bloomington} 
-  \state{Indiana} 
+  \state{IN} 
   \postcode{47408}
-}
-\email{mabschwa@indiana.edu}
+  \country{USA}}
+\email{mabschwa@iu.edu}
 
 
 \begin{abstract}
-Optimized public bus systems can reduce congestion and greenhouse gas emissions, while offering a safe, affordable, and convenient way to travel; however, in many cities people prefer to take private transportation over public buses. Big data analytics is important because new data collection and analytical techniques can efficiently optimize service routes, schedules, and infrastructure. From a customer's perspective, public buses are only an option if they are fast, reliable, and comfortable. Fortunately, big data analytical methods such as human mobility mining \& clustering, ant colony and genetic algorithms, and Monte Carlo simulations make it more possible than ever to offer a dynamic and convenient public bus choice to compete with private vehicle transportation. 
+Optimized public bus networks reduce greenhouse gases while providing a safe and affordable way to travel. Fighting against an unglamorous reputation and stereotypes of inconvenience, modern bus networks must continually update their routes and schedules to meet the demands of modern commuters. Fortunately, big data analytical methods can identify optimal routes through human mobility mining and optimize schedules through dynamic coordinating bus clusters and station and inter-station controls. These methods make it more possible than ever to offer a dynamic and convenient public bus network. Fully optimized public bus systems have the potential to increase quality of life standards, catalyze new development, and prevent urban sprawl. 
 
 \end{abstract}
 
-\keywords{i523, hid225, \LaTeX, big data, bus route optimization}
-
+\keywords{i523, hid225, bus route optimization, bus schedule optimization, public bus transit}
 
 \maketitle
 
 \section{Introduction}
+Public transit systems are at the core of every urban environment. Between 2005 and 2015 public transportation has grown 15\% compared with a 5\% growth for private vehicle travel \cite{Neff01}. Often seen as a second-class transportation method, public bus networks are at the foundation of American public transportation systems. In most urban areas, bus transit is the only form of public transportation. In the United States and Canada there are 83 public rail networks including, heavy-rail, light-trail, subways, and streetcars. In contrast, there are 1,018 public bus networks \cite{Neff01}. Accordingly, public bus transport accounted for 49.1\% of all passenger trips and 37.6\% of passenger miles \cite{Neff01}. 
 
-Optimized public bus transit is one of the keys to bring a better quality of life (QOL) to small and medium sized urban areas. Urban resident's physical, psychological, social, and economic well-being fluctuate with the quality of their public transportation systems\cite{RichardJ01}.Currently, public transportation planning methods rely on human surveys to understand people's transportation needs. Despite the substantial time and cost spent on the survey process, the macroscopic analysis based on surveys is too static to reflect the fast development of urban areas\cite{Liu01}." Big data techniques can bridge this gap between static and dynamic planning methods and allow urban planners to keep pace with growing America urbanization rates. The United Nations estimates 87\% of Americans will live in urban environment by 2050 compared to 82\% in 2017\cite{Boyd01}. In a competitive market to attract the next generation of high-paying jobs and talented workforces, urban areas with optimized transportation systems can leverage their resident's higher QOL. 
+Optimizing the reliability and usability of these transit systems is essential. The United Nations estimates 87\% of Americans will live in urban environment by 2050 compared to 82\% in 2017 \cite{Boyd01}. In a competitive market to attract the next generation of high-paying jobs and talented workforces, successful urban areas will leverage their optimized transportation systems. 
 
-Unfortunately, one major downfall of urbanization is frequent and intense traffic congestion due to more human activities within limited space, and consequently unnecessary energy consumption during traffic congestion{Liu01}. '"The Nobel Prize winning 2007 Intergovernmental Panel on Climate Change report concluded that greenhouse gas emissions must be reduced by 50\% to 85\% by 2050 in order to limit global warming to four degrees Fahrenheit\cite{Hodges01}.'' Optimizing public bus systems can play a major role in reducing greenhouse gas emissions. Compared to private vehicle transportation travel, average bus transit occupancy reduces CO2 emissions per passenger mile by 33.33\%, but when bus transit is fully occupied, CO2 emissions per passenger mile are reduced by 81.25\%\cite{Hodges01}. Therefore, to reduce greenhouse gas emissions and traffic congestion urban areas must attempt to convert users of private transportation to public bus transit. 
+\subsection{Benefits of Public Transportation}
+\subsubsection{Agglomerative Economics} Agglomerative economics, also known as urban increasing returns, is the theory that higher urban density increases labor market pooling, input sharing, and knowledge spillovers \cite{Rosenthal01}. Research shows that efficient and abundant public transportation increases agglomerative economics \cite{Jenkins01}. Thus, investing in public transportation is critical to successful urban planning. Studies show that an increase in public transit investment yields higher per capita GDP and average wages. In large urban areas, a 10\% increase in transit investment can create up to \$1.8 billion in agglomeration economic benefits \cite{Chatman01}. For example, the city of Cleveland recently invested \$50 million in bus rapid transit (BRT) which spurred \$5.8 billion in new transit oriented development \cite{ITDP01}.
 
-Although current mass transit bus systems offer various QOL, environmental, and safety benefits, the current public bus system is far from perfect. Fortunately, new technology makes it easier to collect live bus trip data such as velocity, position, heading, and number of riders and locale data such as traffic patterns, road networks, and points of interest. Applying this data to big data analysis techniques gives urban planners the knowledge to optimize their public transit systems. 
+Other benefits created from increased density from better transportation options include shorter commutes and people with shorter commutes report systematically higher subjective well-being \cite{Stutzer01}. Health benefits also exist with higher urban density because higher density promotes more active transportation methods and physical activity \cite{Owen01} \cite{Eriksson01} \cite{VanDyck01}.  
 
+\subsubsection{Cost Savings}
+In the top 20 metro areas by public transportation ridership, individuals using public transportation as their primary transit method saved \$10,064 annually \cite{Chitwood01}. Public transit riders save money on car payments, maintenance, insurance, fuel, and parking expenses. 
 
+\subsubsection{Environmentally Friendly} ``The Nobel Prize winning 2007 Intergovernmental Panel on Climate Change report concluded that greenhouse gas emissions must be reduced by 50\% to 85\% by 2050 in order to limit global warming to four degrees Fahrenheit \cite{Hodges01}.'' Optimizing public bus systems can play a major role in reducing greenhouse gas emissions. Compared to private vehicle transportation, average bus transit occupancy reduces carbon dioxide emissions per passenger mile by 33.33\%, but when bus transit is fully occupied, carbon dioxide emissions per passenger mile are reduced by 81.25\% \cite{Hodges01}. Public buses will further reduce fuel and greenhouse gases as new electric and hybrid-electric buses are introduced \cite{Marcy01}. In addition, compared with personal vehicle travel heavy commuter rail and light rail reduced greenhouse emissions per mile by 76\% and 62\% respectively \cite{FTA01}.  
 
-\section{Route \& Schedule Optimization Techniques}
-\subsection{Human Mobility Mining \& Clustering}
-\subsection{Ant Colony and Genetic Algorithms}
-\subsection{Monte Carlo Simulations}
+Public transportation reduces energy consumption further by limiting the need for vehicle transportation infrastructure, manufacturing new vehicles, and extracting more fossil fuels \cite{FTA01}. 
 
-\section{Infrastructure Improvements}
-\subsection{Digital Signage}
-\subsection{Roundabouts}
+\subsubsection{Safety} According to the National Safety Council, 40,200 people died in traffic accidents in 2016 \cite{Boudette01}. In the same time period, 4.6 million people were seriously injured from traffic accidents in America \cite{Korosec01}. A report by the American Public Transit Association in association with the Victoria Transport Policy Institute found that public transportation is 10 times safer per passenger mile than private vehicle transit \cite{Mackie01}. 
+
+\subsubsection{Citizen Health} Public transit riders have better mental and physical health than their car driving peers. Researchers at the University of East Anglia found that active methods of transportation improved commuters mental well being \cite{Martin01}. 76\% of Americans commute by car alone \cite{Clara01}. On the other hand, public transportation allows riders to destress, relax, read, and socialize \cite{Martin01}. Physical health is improved through active transportation methods like walking, cycling, and even public transportation. Public transit commuters get three times the amount of daily exercise than those that drive \cite{Litman01}. In fact, public transportation commuters spend roughly 25 minutes a day walking to and from their stops \cite{Margolis01}. As a result, Body Mass Index scores were reduced for new public transit riders \cite{Brown01} \cite{MacDonald01}. In addition, public transit also increases air quality and reduces pollution. 
+
+\subsubsection{Reduced Traffic Congestion} Public transit relives traffic congestion on the most congested roads. During the 35 day 2003 Los Angles transit strike, traffic increased 47\% on average and nearly 100\% along the most popular transit routes \cite{Anderson01}. Residents served by public transportation saved 865 million hours in commute time \cite{Brown02}. In fact, the largest form of mass transit in America the school bus industry removes nearly 36 cars from the road each day \cite{ASCBC}.
+
+\section{Optimization Techniques}
+Bus ridership numbers are falling across America, in Los Angles bus ridership dropped 8.9\%, in New York City bus ridership dropped 16\% between 2002-2015, and in 2015 Chicago had 25 million less bus boardings than 2013 \cite{Cohen01}. According to research group TransitCenter, customer satisfaction relies on service frequency and travel times, not modern and flashy amenities like free wifi and power outlets. In fact, transit riders desire improved station conditions, real-time information, and service reliability instead of 21st century upgrades many transit systems are funding \cite{TC01}. In one recent example, the Metropolitan Transportation Authority in New York City announced plans to add 2,042 high-tech buses with both wifi and power outlets costing nearly \$5,000 extra per bus, totalling over \$10 million \cite{MacMillan01}. Instead of investing in these superfluous upgrades, we suggest using this money to optimize current routes and schedules.
+
+\subsection{Schedule Optimization}
+Bus bunching is a common phenomenon where buses on the same route arrive at the same station at the same time. Bus bunching occurs because the loading time of the first bus is longer than the second bus. At each stop, the second bus loads passengers faster until the two buses converge at the same stop \cite{Andres01}. 
+
+Headway distribution, the time between bus arrivals, is a major measure of service quality and reliability. Interestingly, passengers would rather headway regularity rather than scheduled punctuality \cite{Lin01}. Preventing bus bunching while maintaining short wait times is the primary objective of bus scheduling. Delgado \cite{Delgado01} organized bus bunching and scheduling techniques into three operational categories: station control, inter-station control, and capital rearrangement.
+
+\subsubsection{Station Control} Station control techniques include static and schedule based holding \cite{Andres01}, dynamic holding \cite{Bartholdi01}, stop skipping \cite{Sun01}, and boarding limits \cite{Zhao01}. Mazloumi \cite{Mazloumi01} used ant colony and genetic algorithms to optimize bus transit schedules.
+\subsubsection{Inter-Station Control} Inter-station control techniques include controlled bus cruising speeds \cite{He01}, bus overtaking \cite{Schmocker01}, and transit priority signal mechanisms \cite{Albright01}. 
+\subsubsection{Capital Rearrangement} Alternatively, bus systems can add buses at the beginning of the route or even in the middle, but this is inefficient us of drivers and buses for both the bus systems and their passengers \cite{Andres01}. If bus bunching on a specific route is predictable, one of the above optimization techniques should be used to limit the effect.
+
+In 2012, the San Francisco Municipal Transportation Agency  implemented the first all door boarding policy, allowing passengers to board from both the front and back door \cite{SFMTA01}. Traditionally, buses only allow front door boarding to prevent fare avoidance, but a two year review of San Fransico's all door boarding policy actually shows an increase in fare compliance in combination with faster trips and short board times \cite{FTA01}.   
+
+\subsection{Route Optimization}
+Historically, public transportation systems use human surveys to understand people's transportation needs. Despite the substantial time and cost spent on the survey process, the macroscopic analysis based on surveys is too static to reflect the fast development of urban areas \cite{Liu01}. As a result, many transportation networks still use routes from out-dated studies and surveys. 
+
+\subsubsection{Route Consolidation} Route consolidation in Portland increased bus route speed by 6\% without sacrificing passenger perceived quality \cite{El01}. The TransitCenter explains the how American bus stops are too close together. In New York City, the average distance between bus stops is only 750 feet. In fact, buses in New York City spend 22\% of their active time at bus stops \cite{TC02}. They suggest consolidating bus stops to combine unnecessary stops that slow the everyone's ride. Creating new stops within a quarter mile (a 5 minute walk or less) prevents isolating existing riders \cite{TC02}.
+
+\subsubsection{Human Mobility Mining} Significant research shows the predictability of human mobility patterns. Montjoye \cite{Montjoye01} showed that four spatio-temporal points are enough to identify 95\% of individuals \cite{Liu01}. Song \cite{Song01} shows that human mobility has a predictability of 93\%. Made easier but the constant data collection from private vehicle transportation like taxis and rider sharing apps, transportation systems can use this data to create better routes to meet their passengers needs. Liu \cite{Liu01} used data from 30 million taxi trips to optimize bus routes in Beijing. Chuah \cite{Chuah01} used taxi data in Singapore to identify public transportation islands and proposed new routes to serve passengers in these areas. 
 
 \section{Conclusion}
+Amid a major disruption in the transportation industry due to technological advances in autonomous vehicles, public bus networks must adapt. For instance, public bus networks can leverage this new technology and create a larger network of smaller autonomous buses that are highly optimized to local human mobility patterns. Using live traffic data, the Internet of Things, current events, and fast computing big data algorithms, this advanced system of public transportation could eliminate the need for private vehicle ownership all together.
 
-Amid a major disruption in the transportation industry due to the introduction of self driving vehicles, public bus systems must adapt. For instance, public bus systems can leverage this new technology and create a network of smaller self driving buses that are highly optimized to local human mobility patterns. Using live traffic data, the Internet of Things, and fast computing big data algorithms, this system of public transportation could eliminate the need for private vehicle ownership all together. For several reasons, creating a highly optimized public bus system is good for QOL standards, sustainability, and safety. 
+Public transportation and bus transit in particular are vital components of urban environments. Maximizing their effectiveness through optimization of routes and schedules will insure their importance in the urban landscape.
 
 \begin{acks}
-
 The author would like to thank Dr. Gregor von Laszewski for his support and suggestions to write this paper.
-
 \end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
