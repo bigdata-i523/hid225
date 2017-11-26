@@ -19,11 +19,7 @@ paper2:
 paper2:
     review: 100% Nov 6 2017
     abstract: >
-        Like the internet in the 1980s and early 1990s, blockchain is a grossly misunderstood technology
-        that has the capability of transforming a wide variety of industries. These industries extend 
-        beyond just financial transactions and cryptocurrencies and includes healthcare and supply chain.
-        This paper reviews the history and current status of blockchain and investigates use cases for 
-        how blockchain can transform healthcare and supply chain. 
+        Like TCP/IP in the 1970s and 1980s, blockchain is a new, intriguing but grossly misunderstood technology that is still in its infancy. It is commonly misunderstood as just a technology for Bitcoin and cryptocurrencies. However, blockchain's use cases extend beyond just financial transactions and cryptocurrencies and have the potential to transform nearly every industry including healthcare and supply chain. As the technology matures, additional transformative use cases could expand into drug distribution; specifically, a blockchain system for prescription opioid distribution could theoretically mitigate some aspects of the opioid crisis. 
     author:
         - Kumar, Saurabh; Schwartzer, Matthew; Hotz, Nicholas 
     hid:
