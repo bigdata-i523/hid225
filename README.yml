@@ -29,9 +29,9 @@ paper2:
 project:
     review: Dec 4 2017
     author:
-        - Gregor von Laszewski
+        - Schwartzer, Matthew
     hid:
-        - 000
+        - 225
     title: null
     abstract: >
         We showcase tis and that and the other
@@ -39,4 +39,4 @@ project:
     url: https://github.com/bigdata-i523/sample-hid000/project/
     type: project
     status: Dec 04 17 0%
-chapter: TBD
+    chapter: TBD
