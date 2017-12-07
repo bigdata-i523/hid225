@@ -16,7 +16,8 @@ paper1:
     type: latex
     url: https://github.com/bigdata-i523/hid225/paper1/paper1.pdf
 paper2:
-    review: 100% Nov 6 2017
+    duplicate: True
+    status: 100% Nov 6 2017
     abstract: >
         Like TCP/IP in the 1970s and 1980s, blockchain is a new, intriguing but grossly misunderstood technology that is still in its infancy. It is commonly misunderstood as just a technology for Bitcoin and cryptocurrencies. However, blockchain's use cases extend beyond just financial transactions and cryptocurrencies and have the potential to transform nearly every industry including healthcare and supply chain. As the technology matures, additional transformative use cases could expand into drug distribution; specifically, a blockchain system for prescription opioid distribution could theoretically mitigate some aspects of the opioid crisis. 
     author:
@@ -39,4 +40,4 @@ project:
     url: https://github.com/bigdata-i523/sample-hid000/project/
     type: project
     status: Dec 04 17 0%
-    chapter: TBD
+    chapter: Health
