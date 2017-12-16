@@ -13,7 +13,6 @@ paper1:
         - 225
     status: 100% November 26
     title: Creating Better Urban Environments with Optimized Public Bus Routes and Schedules
-    type: latex
     url: https://github.com/bigdata-i523/hid225/paper1/paper1.pdf
 paper2:
     duplicate: True
@@ -29,7 +28,6 @@ paper2:
         - 225
         - 210
     title: Can Blockchain Mitigate the Opioid Crisis Through More Secure Drug Distribution?
-    type: latex
     url: https://github.com/bigdata-i523/hid212/blob/master/paper2/report.tex
 project:
     duplicate: True
